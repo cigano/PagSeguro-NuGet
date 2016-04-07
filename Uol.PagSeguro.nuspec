@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Uol.PagSeguro</id>
+    <version>2.5.1</version>
+    <authors>PagSeguro Team</authors>
+    <owners>Cigano Morrison Mendez</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/pagseguro/dotnet</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/123060</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PagSeguro SDK for .NET (Biblioteca de integração em .NET)</description>
+    <releaseNotes>Desculpem a demora para atualizar desta vez.
+	
+	Vejam https://github.com/pagseguro/dotnet para mais detalhes.
+	
+	Caso precise de uma atualização de versão, apenas faça um pull request que republico o pacote: https://github.com/cigano/PagSeguro-NuGet</releaseNotes>
+    <copyright>Copyright 2014-2016 PagSeguro Internet LTDA</copyright>
+    <tags>PagSeguro</tags>
+  </metadata>
+</package>
