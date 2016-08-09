@@ -2,17 +2,19 @@
 <package>
   <metadata>
     <id>Uol.PagSeguro</id>
-    <version>2.5.1</version>
-    <authors>PagSeguro Team</authors>
+    <version>2.6.0.0</version>
+    <authors>Design Liquido</authors>
     <owners>Cigano Morrison Mendez</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>https://github.com/pagseguro/dotnet</projectUrl>
+    <projectUrl>https://github.com/DesignLiquido/pagseguro-dotnet</projectUrl>
     <iconUrl>https://avatars3.githubusercontent.com/u/123060</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>PagSeguro SDK for .NET (Biblioteca de integração em .NET)</description>
-    <releaseNotes>Desculpem a demora para atualizar desta vez.
+    <releaseNotes>Subindo agora uma atualização minha, relativa a alguns pull requests que estavam parados no repositório original e mais a configuração do XML dentro do arquivo App.config / Web.config, que faz muito mais sentido que manter um XML em separado.
 	
-	Vejam https://github.com/pagseguro/dotnet para mais detalhes.
+	Mantive a compatibilidade com o XML original apenas para os projetos não quebrarem, mas a ideia é remover este suporte num futuro próximo.
+	
+	Vejam https://github.com/DesignLiquido/pagseguro-dotnet para mais detalhes.
 	
 	Caso precise de uma atualização de versão, apenas faça um pull request que republico o pacote: https://github.com/cigano/PagSeguro-NuGet</releaseNotes>
     <copyright>Copyright 2014-2016 PagSeguro Internet LTDA</copyright>
