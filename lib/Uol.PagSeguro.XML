@@ -4,6 +4,11 @@
         <name>Uol.PagSeguro</name>
     </assembly>
     <members>
+        <member name="P:Uol.PagSeguro.Configuration.PagSeguroConfigurationElement.Sandbox">
+            <summary>
+            Configure Sandbox TextElement
+            </summary>
+        </member>
         <member name="T:Uol.PagSeguro.Domain.AcceptedPaymentGroups">
             <summary>
             Defines a list of known accepted payment groups.
@@ -2904,6 +2909,114 @@
             
             </summary>
         </member>
+        <member name="T:Uol.PagSeguro.Enums.TransactionStatus">
+            <summary>
+            Defines a list of known transaction statuses.
+            </summary>
+            <remarks>
+            This class is not an enum to enable the introduction of new transaction statuses
+            without breaking this version of the library.
+            </remarks>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionStatus.Initiated">
+            <summary>
+            Initiated
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionStatus.WaitingPayment">
+            <summary>
+            Waiting payment
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionStatus.InAnalysis">
+            <summary>
+            In analysis
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionStatus.Paid">
+            <summary>
+            Paid
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionStatus.Available">
+            <summary>
+            Available
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionStatus.InDispute">
+            <summary>
+            In dispute
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionStatus.Refunded">
+            <summary>
+            Refunded
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionStatus.Cancelled">
+            <summary>
+            Cancelled
+            </summary>
+        </member>
+        <member name="T:Uol.PagSeguro.Enums.TransactionType">
+            <summary>
+            Defines a list of known transaction types.
+            </summary>
+            <remarks>
+            This class is not an enum to enable the introduction of new shipping types
+            without breaking this version of the library.
+            </remarks>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.Payment">
+            <summary>
+            Payment
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.Transfer">
+            <summary>
+            Transfer
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.FundAddition">
+            <summary>
+            Fund addition
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.Withdraw">
+            <summary>
+            Withdraw
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.Charge">
+            <summary>
+            Charge
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.Donation">
+            <summary>
+            Donation
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.Bonus">
+            <summary>
+            Bonus
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.BonusRepass">
+            <summary>
+            Bonus repass
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.Operational">
+            <summary>
+            Operational
+            </summary>
+        </member>
+        <member name="F:Uol.PagSeguro.Enums.TransactionType.PoliticalDonation">
+            <summary>
+            Political donation
+            </summary>
+        </member>
         <member name="T:Uol.PagSeguro.Parse.PreApprovalParse">
             <summary>
             
@@ -3433,12 +3546,12 @@
             
             </summary>
         </member>
-        <member name="M:Uol.PagSeguro.Resources.PagSeguroConfiguration.Credentials(System.Boolean)">
+        <member name="M:Uol.PagSeguro.Resources.PagSeguroConfiguration.Credentials(System.Nullable{System.Boolean})">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Uol.PagSeguro.Resources.PagSeguroConfiguration.ApplicationCredentials(System.Boolean)">
+        <member name="M:Uol.PagSeguro.Resources.PagSeguroConfiguration.ApplicationCredentials(System.Nullable{System.Boolean})">
             <summary>
             
             </summary>
@@ -3568,6 +3681,11 @@
         <member name="P:Uol.PagSeguro.Resources.PagSeguroConfiguration.RequestTimeout">
             <summary>
             
+            </summary>
+        </member>
+        <member name="P:Uol.PagSeguro.Resources.PagSeguroConfiguration.Sandbox">
+            <summary>
+            Get Sandbox configuration
             </summary>
         </member>
         <member name="P:Uol.PagSeguro.Resources.PagSeguroConfiguration.FormUrlEncoded">
