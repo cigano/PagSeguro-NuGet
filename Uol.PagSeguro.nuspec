@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Uol.PagSeguro</id>
-    <version>2.7</version>
+    <version>2.7.1</version>
     <authors>Design Liquido</authors>
     <owners>Cigano Morrison Mendez</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -15,6 +15,8 @@
 	Mantive a compatibilidade com o XML original apenas para os projetos não quebrarem, mas a ideia é remover este suporte num futuro próximo.
 	
 	Vejam https://github.com/DesignLiquido/pagseguro-dotnet para mais detalhes.
+	
+	Neste release, são feitos ajustes relativos a esta Issue: https://github.com/DesignLiquido/pagseguro-dotnet/issues/1
 	
 	Caso precise de uma atualização de versão, apenas faça um pull request que republico o pacote: https://github.com/cigano/PagSeguro-NuGet</releaseNotes>
     <copyright>Copyright 2014-2016 PagSeguro Internet LTDA</copyright>
